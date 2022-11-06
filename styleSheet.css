@@ -1,0 +1,152 @@
+
+nav { 
+  display: block;
+  clear: both;
+}
+
+.text { 
+    position: absolute;
+    top: 50x;
+    left: 50px;
+    
+    color: rgba(246, 246, 246, 0.39);
+    -webkit-animation: glowing-text 1s ease-in-out infinite alternate;
+    -moz-animation: glowing-text 1s ease-in-out infinite alternate;
+    background-repeat: no-repeat;
+}
+.b1 { 
+  background-color: rgb(241, 241, 241);
+  
+  transition: opacity .5s;
+  
+}
+.nameText { 
+  font-size: 30px;
+  position: absolute; top: 170px; left: 600px;
+  
+}
+
+@-webkit-keyframes glowing-text {
+    0% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2e00e6, 0 0 40px #848485, 0 0 50px #ac1d1d, 0 0 60px #e60000, 0 0 70px #e60000;
+  }
+    
+    100% {
+      text-shadow: 0 0 20px rgb(19, 18, 18), 0 0 30px #d04b4b, 0 0 40px #ff4d4d, 0 0 50px #ff4d4d, 0 0 60px #ff4d4d, 0 0 70px #ff4d4d, 0 0 80px #ff4d4d;
+    }
+  }
+
+
+/*.header { 
+    padding: 100px; 
+    background-color: gray;
+    text-align: center;
+    font-size: 30px;
+    color: bisque;
+    background-repeat: no-repeat;
+}*/
+
+
+
+.lastned { 
+  position: absolute; left: 200px;top: 500px;
+}
+
+.dot { 
+  height: 100px;
+  width: 120px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute; top: 100px; left: 350px;
+  color: black; 
+  background-repeat: no-repeat;
+}
+
+#name {
+  position: absolute; left: 22px; top: 2px; 
+  font-size: 80px;
+  color: #fff;
+  background-repeat: no-repeat;
+}
+
+.nav{ 
+  
+  position: absolute; left: 350px; top: 200px;
+  color: black;
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+  gap: 100px;
+  
+}
+
+  
+
+.nav li:nth-child(even) { 
+  color: red;
+  margin: 10px 0;
+  font-style: initial;
+ 
+}
+.nav li a{ 
+  color: black;
+}
+
+#oslo { 
+  width: 30%;
+  position: absolute; left: 560px;top: 210px;
+  background-repeat: no-repeat;
+}
+
+#bi { 
+  font-size: 50px;
+  position: absolute; left: 1100px;top: 100px;
+  font-family: "Comic sans MS";
+}
+
+.b2 { 
+  
+  background-color: rgb(235, 237, 239);
+}
+#value { 
+  position: absolute; left: 10px;top: 50px;
+  width: 50%;
+  filter: blur(1px);
+  background-color: #7f7e7e;
+  border-radius: 70%;
+  
+}
+#valueDescription  { 
+  font-style: initial;
+  position: absolute; left: 910px;top: 300px;
+  display: flex;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: x-large;
+  
+
+}
+#valueDescription > div { 
+  width: 25%;height: 60px;
+  margin: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-inline: 90px;
+  
+}
+.container { 
+  display: flex;
+  width: 50%;
+  height: 200px;
+  position: absolute; left: 960px;top: 400px;
+
+}
+
+.container > div { 
+  width: 25%;
+  height: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  margin-inline: 30px;
+  background-color: rgb(232, 232, 232);
+  font-family: 'Courier New', Courier, monospace;
+}
