@@ -94,13 +94,13 @@ nav {
 
 #oslo { 
   width: 30%;
-  position: absolute; left: 560px;top: 210px;
+  position: absolute; left: 110%;top: 210px;
   background-repeat: no-repeat;
 }
 
 #bi { 
   font-size: 50px;
-  position: absolute; left: 1100px;top: 100px;
+  position: absolute; left: 60%;top: 100px;
   font-family: "Comic sans MS";
 }
 
@@ -118,35 +118,34 @@ nav {
 }
 #valueDescription  { 
   font-style: initial;
-  position: absolute; left: 910px;top: 300px;
+  position: absolute; left: 43%;top: 40%;
   display: flex;
-  border-radius: 10px;
-  margin-left: 10px;
+  border-radius: 3%;
+  margin-left: 3%;
   font-size: x-large;
   
 
 }
 #valueDescription > div { 
-  width: 25%;height: 60px;
-  margin: 50px;
+  width: 25%;
+  margin: 15%;
   font-family: 'Courier New', Courier, monospace;
-  margin-inline: 90px;
+  margin-inline: 14%;
   
 }
 .container { 
   display: flex;
   width: 50%;
-  height: 200px;
-  position: absolute; left: 960px;top: 400px;
+  height: 200%;
+  position: absolute; left: 47%;top: 400px;
 
 }
 
 .container > div { 
   width: 25%;
-  height: 150px;
-  margin: 10px;
-  border-radius: 5px;
-  margin-inline: 30px;
+  margin: 2%;
+  border-radius: 3%;
+  margin-inline: 3%;
   background-color: rgb(232, 232, 232);
   font-family: 'Courier New', Courier, monospace;
 }
